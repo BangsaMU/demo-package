@@ -1,0 +1,18 @@
+{
+    "name": "bangsamu/demo-package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bangsamu\\DemoPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bangsamu\\DemoPackage\\DemoPackageServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
